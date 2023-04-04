@@ -29,7 +29,12 @@ MACHINE:(安卓设备)
  linux也可以在线安装:sudo apt-get install android-tools-adb
            离线安装：参考 https://www.jianshu.com/p/59799fa142e9
 
-#windows配置ADB环境:参考https://blog.csdn.net/kasumi8874/article/details/123756858
+#windows配置ADB环境:
+1.1：打开控制面板 >系统和安全>系统>高级系统设置
+1.2:在系统变量中新建ANDROID_HOME变量，赋值路径(platform-tools的上一级目录例如：C:\Users\SweetOrange\AppData\Local\Android\Sdk\)
+1.3.在系统变量path中添加%ANDROID_HOME%\platform-tools
+1.4.cmd进入终端
+可以参考https://blog.csdn.net/kasumi8874/article/details/123756858
 
 
 ## 五、连接移动设备以及查看设备连接状态
