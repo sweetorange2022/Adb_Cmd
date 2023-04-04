@@ -224,7 +224,7 @@ top 后面可以加参数-d 1 表示每一秒打印一次  <br>
 
 注意:[   ]不必在命令行中出现,直接写里面的东西即可  
 
-##十四、从内容解析器读取值,可以通过其 uri 访问它 
+## 十四、从内容解析器读取值,可以通过其 uri 访问它 
 
 例如:可以使用 uri 获取短信:  <br>
 adb shell content query --uri content://sms --projection _id,address,body,read,date,type  <br>
@@ -266,4 +266,4 @@ adb shell content query --uri content://call_log/calls
 4、CSDN上比较好的文档:https://blog.csdn.net/lb245557472/article/details/84068519? <br> 
 5、adb keyevent 代号:https://www.cnblogs.com/hujingnb/p/10282238.html  <br>
 6、ADB git:https://github.com/mzlogin/awesome-adb  <br>
-[adb远比我想象中的更好用!!!]  <br>
+<b>[adb远比我想象中的更好用!!!]  </b> <br>
