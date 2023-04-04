@@ -249,7 +249,7 @@ adb shell content query --uri content://call_log/calls
 
 
 
-##十五、常见问题自查、解决方式:  <br>
+## 十五、常见问题自查、解决方式:  <br>
 1、查看adb 版本,版本过低的话及时升级版本  <br>
 2、查看安卓设备接和PC接口处是否连接好  <br>
 3、环境变量是否设置好  <br>
