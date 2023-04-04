@@ -224,7 +224,7 @@ top 后面可以加参数-d 1 表示每一秒打印一次  <br>
 
 注意:[   ]不必在命令行中出现,直接写里面的东西即可  
 
-十四、从内容解析器读取值,可以通过其 uri 访问它 
+##十四、从内容解析器读取值,可以通过其 uri 访问它 
 
 例如:可以使用 uri 获取短信:  <br>
 adb shell content query --uri content://sms --projection _id,address,body,read,date,type  <br>
@@ -249,8 +249,7 @@ adb shell content query --uri content://call_log/calls
 
 
 
-
-十五、常见问题自查、解决方式:  <br>
+##十五、常见问题自查、解决方式:  <br>
 1、查看adb 版本,版本过低的话及时升级版本  <br>
 2、查看安卓设备接和PC接口处是否连接好  <br>
 3、环境变量是否设置好  <br>
