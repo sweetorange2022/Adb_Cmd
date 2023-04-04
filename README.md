@@ -266,4 +266,6 @@ adb shell content query --uri content://call_log/calls
 4、CSDN上比较好的文档:https://blog.csdn.net/lb245557472/article/details/84068519? <br> 
 5、adb keyevent 代号:https://www.cnblogs.com/hujingnb/p/10282238.html  <br>
 6、ADB git:https://github.com/mzlogin/awesome-adb  <br>
+ 
+ 
 <b>[adb远比我想象中的更好用!!!]  </b> <br>
