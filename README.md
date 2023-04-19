@@ -40,7 +40,7 @@ MACHINE:(安卓设备)  <br>
 ### linux 下载  
 
 在线安装: ```sudo apt-get install android-tools-adb  ``` <br>
-离线安装：参考 https://www.jianshu.com/p/59799fa142e9   <br>
+离线安装：[参考资料](https://www.jianshu.com/p/59799fa142e9)   <br>
 
 ### windows配置ADB环境:  <br>
 + 打开控制面板 >系统和安全>系统>高级系统设置  <br>
