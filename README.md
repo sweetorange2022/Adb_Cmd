@@ -259,9 +259,9 @@ windows查看进程信息:  ``` adb shell top |  findstr [包名]  ``` <br>
 top 后面可以加参数-d 1 表示每一秒打印一次  <br>
 
 电池信息: ``` adb shell dumpsys battery   ``` <br>
-将电池信息保存到XXX.txt中去:   ``` adb shell dumpsys batterystats > xxx.txt  ```//  <br>
-无线网ip:  ```   adb shell ip addr show wlan0  | grep -oE 'inet ([0-9]{1,3}.{3})([0-9]{1,3})' |grep -oE '([0-9]{1,3}.{3})([0-9]{1,3})' ```   
+将电池信息保存到XXX.txt中去:   ``` adb shell dumpsys batterystats > xxx.txt  ```//  <br>  
 
+无线网ip:  ```   adb shell ip addr show wlan0  | grep -oE 'inet ([0-9]{1,3}.{3})([0-9]{1,3})' |grep -oE '([0-9]{1,3}.{3})([0-9]{1,3})' ```   
 查看本机热点Ip: ```  adb shell ip addr ap0 ```  <br>
 
 性能相关的具体用法:[官网](https : / /developer.android.com/ docs )<br>
@@ -296,7 +296,6 @@ adb shell content query --uri content://mms/inbox  --projection _id,address,body
 3、环境变量是否设置好  <br>
 4、手机开发者模式和USB调试开关是否正确打开?  <br>
 5、重新开启  
-
 杀掉adb : ```  adb kill-server  ```  <br>
 重启adb : ```  adb start-server ```  <br>
 --一般至此就不会有问题了  
