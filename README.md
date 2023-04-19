@@ -1,4 +1,4 @@
-# The_Adb_Cmd
+# ADB Tutorials
 
 由于在工作中常用到的adb命令，在此总结，基本是很全乎了，以供后续查阅，欢迎补充！<br>
 
