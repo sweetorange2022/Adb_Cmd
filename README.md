@@ -36,14 +36,18 @@ MACHINE:(安卓设备)  <br>
 ## 四、ADB下载安装:
 
 最新版本的ADB下载(包含多系统版本) ：[入口]( https://adbshell.com/)   <br>
-<b>linux</b>也可以在线安装: ```sudo apt-get install android-tools-adb  ``` <br>
+
+### linux 下载  
+
+在线安装: ```sudo apt-get install android-tools-adb  ``` <br>
 离线安装：参考 https://www.jianshu.com/p/59799fa142e9   <br>
 
-#windows配置ADB环境:  <br>
+### windows配置ADB环境:  <br>
 + 打开控制面板 >系统和安全>系统>高级系统设置  <br>
 + 在系统变量中新建ANDROID_HOME变量，赋值路径(platform-tools的上一级目录例如：C:\Users\SweetOrange\AppData\Local\Android\Sdk\)  <br>
 + 在系统变量path中添加%ANDROID_HOME%\platform-tools  <br>
-+ cmd进入终端  <br>
++ cmd进入终端  <br>  
+
 安装配置部分可以参考这篇博客：[入口](https://blog.csdn.net/kasumi8874/article/details/123756858) <br>
 
 
@@ -66,7 +70,7 @@ adb真机调试使用前提:  <br>
  adb get-serialno 
  adb devices
  ```
- 获取更加详细的设备信息,含序列号、型号等：```adb devices -l  ```
+获取更加详细的设备信息,含序列号、型号等：```adb devices -l  ```
 
 
 获取型号： ``` adb -d shell getprop ro.product.model  ```  
