@@ -104,6 +104,7 @@ error: no devices/emulators found、unknown-没有连接设备
 ## 六、adb命令格式:
  
 ``` adb [-d | -e | -s <serialNumber>] <command> ``` <br>
+| | |
 |--|--|
 |一台设备不需要以下命令,默认会操作已连接的设备: |-d 指定当前唯一通过USB连接安卓设备为命令目标| 
 |         |-e 指定当前唯一运行的模拟器为命令目标 |
@@ -146,7 +147,8 @@ adb打开页面 ： ``` adb logcat ActivityManager:I  | findstr  "cmp" ```  <br>
 ``` activity manger:am  ```<br>
 ``` package manger:pm  ```<br>
 
-获取imei:
+获取imei:  
+
 ``` adb shell service call iphonesubinfo 1  ``` //获取字符串需要处理  <br>
 ``` adb shell getprop ro.ril.oem.imei        ```  //直接获取imei字符串,不需要处理  <br>  
 
@@ -181,7 +183,7 @@ adb shell pm list packages  [tencent]    //查看腾讯系软件包（包名带�
 ``` adb  pull 安卓设备路径 PC路径 ``` 
 
 ## 十一、adb查看安卓设备日志:adb logcat  <br>
-
+| | |
 |--|--|
 |日志的级别:  | V-明细verbose(最低优先级)  |
 | |D―调试debug |
@@ -200,6 +202,7 @@ adb查看安卓设备日志:```adb logcat ```
 将日志存放到PC端： ``` adb logcat> pc端文件路径```      <br>
 
 依据条件过滤日志:  <br>
+| | | 
 |--|--|
 |查看日志帮助命令:| adb logcat --help   | |
 | |adb logcat -v time "*:| w" 打印warning以及以上级别的日志  |
