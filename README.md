@@ -295,9 +295,9 @@ adb shell content query --uri content://mms/inbox  --projection _id,address,body
 3、环境变量是否设置好  <br>
 4、手机开发者模式和USB调试开关是否正确打开?  <br>
 5、重新开启  
-杀掉adb : ```  adb kill-server  ```  <br>
-重启adb : ```  adb start-server ```  <br>
---一般至此就不会有问题了  
+　&nbsp;&nbsp; 杀掉adb : ```  adb kill-server  ```  <br>
+　&nbsp;&nbsp; 重启adb : ```  adb start-server ```  <br>
++ 一般至此就不会有问题了  
 
 ## 十六、其他的安装、学习资料文档  
  
